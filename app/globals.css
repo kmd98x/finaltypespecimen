@@ -1,0 +1,51 @@
+@import "tailwindcss";
+@import "./styles/fonts.css";
+
+@theme {
+	--color-zwart: rgb(16, 16, 16);
+	--color-wit: rgb(255, 255, 255);
+
+	--color-beige: rgb(244, 237, 210);
+	--color-groen: rgb(13, 61, 53);
+	--color-rood: rgb(208, 43, 33);
+	--color-donker-beige: rgb(212, 208, 182);
+
+	/* Opacity */
+	--color-beige-35: rgba(244, 237, 210, 0.35);
+	--color-zwart-35: rgb(16, 16, 16, 0.35);
+	--color-groen-35: rgb(13, 61, 53, 0.35);
+	--color-wit-35: rgb(255, 255, 255, 0.35);
+}
+
+@layer utilities {
+	.gill-sans-light { font-family: "gill-sans-light"; }
+	.gill-sans-light-italic { font-family: "gill-sans-light-italic"; }
+
+	.gill-sans { font-family: "gill-sans"; }
+	.gill-sans-italic { font-family: "gill-sans-italic"; }
+
+	.gill-sans-medium { font-family: "gill-sans-medium"; }
+	.gill-sans-medium-italic { font-family: "gill-sans-medium-italic"; }
+
+	.gill-sans-bold { font-family: "gill-sans-bold"; }
+	.gill-sans-bold-italic { font-family: "gill-sans-bold-italic"; }
+
+	.gill-sans-condensed { font-family: "gill-sans-condensed"; }
+	.gill-sans-condensed-bold { font-family: "gill-sans-condensed-bold"; }
+
+	.gill-sans-heavy { font-family: "gill-sans-heavy"; }
+	.gill-sans-heavy-italic { font-family: "gill-sans-heavy-italic"; }
+}
+
+body {
+	background: var(--beige);
+	font-family: "gill-sans";
+}
+
+.swiper-pagination {
+	@apply py-5! px-10!;
+}
+
+.swiper-pagination-bullet-active {
+	@apply bg-beige!;
+}

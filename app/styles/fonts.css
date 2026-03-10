@@ -1,0 +1,83 @@
+@font-face {
+    font-family: "gill-sans-light";
+    src: url("/fonts/gill-sans-light.otf") format("opentype");
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "gill-sans-light-italic";
+    src: url("/fonts/gill-sans-light-italic.otf") format("opentype");
+    font-weight: 300;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "gill-sans";
+    src: url("/fonts/gill-sans.otf") format("opentype");
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "gill-sans-italic";
+    src: url("/fonts/gill-sans-italic.otf") format("opentype");
+    font-weight: 400;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "gill-sans-medium";
+    src: url("/fonts/gill-sans-medium.otf") format("opentype");
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "gill-sans-medium-italic";
+    src: url("/fonts/gill-sans-medium-italic.otf") format("opentype");
+    font-weight: 500;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "gill-sans-bold";
+    src: url("/fonts/gill-sans-bold.otf") format("opentype");
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "gill-sans-bold-italic";
+    src: url("/fonts/gill-sans-bold-italic.otf") format("opentype");
+    font-weight: 700;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "gill-sans-condensed";
+    src: url("/fonts/gill-sans-condensed.otf") format("opentype");
+    font-weight: 800;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "gill-sans-condensed-bold";
+    src: url("/fonts/gill-sans-condensed-bold.otf") format("opentype");
+    font-weight: 800;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "gill-sans-heavy";
+    src: url("/fonts/gill-sans-heavy.otf") format("opentype");
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "gill-sans-heavy-italic";
+    src: url("/fonts/gill-sans-heavy-italic.otf") format("opentype");
+    font-weight: 900;
+    font-style: italic;
+}
