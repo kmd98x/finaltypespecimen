@@ -16,17 +16,17 @@ export default function Interactief() {
         {
             letter: "T",
             font: "gill-sans-light",
-            label: "light"
+            label: "Light"
         },
         {
             letter: "Y",
             font: "gill-sans-regular",
-            label: "regular"
+            label: "Regular"
         },
         {
             letter: "P",
             font: "gill-sans-condensed",
-            label: "condensed"
+            label: "Condensed"
         },
         {
             letter: "E",
@@ -40,31 +40,31 @@ export default function Interactief() {
             isImage: true,
             letter: "s-letter.svg",
             font: "gill-sans-medium",
-            label: "semi-bold.svg"
+            label: "Semi-Bold.svg"
         },
         {
             isImage: false,
             letter: "P",
             font: "gill-sans-bold",
-            label: "bold"
+            label: "Bold"
         },
         {
             isImage: false,
             letter: "E",
             font: "gill-sans-heavy",
-            label: "heavy"
+            label: "Heavy"
         },
         {
             isImage: true,
             letter: "c-letter.svg",
             font: "gill-sans-light",
-            label: "ultra-bold.svg"
+            label: "Ultra-Bold.svg"
         },
         {
             isImage: false,
             letter: "I",
             font: "gill-sans-light-italic",
-            label: "light-italic"
+            label: "Light-Italic"
         },
         {
             isImage: false,
@@ -76,7 +76,7 @@ export default function Interactief() {
             isImage: true,
             letter: "e-letter.svg",
             font: "",
-            label: "semibold-italic.svg"
+            label: "SemiBold-italic.svg"
         },
         {
             isImage: false,
